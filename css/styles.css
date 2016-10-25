@@ -1,0 +1,59 @@
+body {
+  font-size: 16px;
+  color: #fff;
+  background-color: #4CA16A;
+  font-family: 'Oxygen', sans-serif;
+}
+
+.navbar-brand h1 { /* Restaurant name */
+  font-family: 'Oxford', serif;
+  color: #fff;
+  font-size: 1.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-shadow: 1px 1px 1px #222;
+  margin-top: 0;
+  margin-bottom: 0;
+  line-height: .75;
+}
+
+#header-nav {
+	background-color: #11592A;
+}
+
+#header-nav .container {
+	margin-left: 0px;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid #fff;
+}
+
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+
+#nav-list {
+  margin-top: 10px;
+}
+
+#nav-list p {
+  color: #fff;
+}
+#nav-list p:hover {
+  background: #000;
+}
+
+@media (max-width: 768px){
+	#collapsable-nav{
+		background-color: #336544;
+	}
+}
+
+/*end header*/
+
+#body-section {
+	height:1000px;
+	background-color: grey;
+}
